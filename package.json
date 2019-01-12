@@ -1,0 +1,38 @@
+{
+    "name": "react-quick-ui",
+    "version": "1.0.1",
+    "description": "UI library to build react project real quick with minimal config",
+    "author": "Rishabh Priyadarshi",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/uxify/react-quick-ui"
+    },
+    "license": "GNU General Public License v3.0",
+    "scripts": {
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "peerDependencies": {
+        "prop-types": "^15.6.2",
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "path": "^0.12.7",
+        "webpack": "^4.28.4",
+        "webpack-cli": "^3.2.1"
+    },
+    "dependencies": {
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0"
+    }
+}
